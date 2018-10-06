@@ -1,0 +1,66 @@
+
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+  <title>Kevin Zhang Bootstrap Portfolio</title>
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/style/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/style/style.css" />
+
+</head>
+<body class="bg-warning">
+<!--Start of Header-->
+  <header class="position-fixed w-100 text-white border-bottom border-secondary bg-white">
+    <div class="container">
+
+      <h1 class="float-left text-white text-center p-3 mb-0 bg-info"><strong>Kevin Zhang</strong></h1>
+
+      <nav class="float-right d-inline text-secondary mt-4">
+        <a class="d-inline border-right border-secondary pr-3 pl-3 text-secondary" href="index.html">About</a>
+        <a class="d-inline border-right border-secondary pr-3 pl-3 text-secondary" href="portfolio.html">Portfolio</a>
+        <a class="d-inline border-secondary pl-3 text-secondary" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+<!--End of Header/Start of main-container-->
+<div id="main-container" class="container">
+    <section class="float-left w-100 border border-secondary p-5 bg-white mt-4 mb-5">
+        
+        <h2 class="text-info">Contact</h2>
+        <hr>
+
+        <form id="contact-form">
+            <ul>
+              <li>
+                <label class="mb-0 text-secondary" for="name">Name</label>
+                <input class="w-100 border border-secondary mb-3" type="text" name="name" placeholder="John Smith" required="required">
+              </li>
+              <li>
+                <label class="mb-0 text-secondary" for="email">Email</label>
+                <input class="w-100 border border-secondary mb-3" type="email" name="email" placeholder="example@gmail.com" required="required">
+              </li>
+              <li>
+                <label class="mb-0 text-secondary" for="message">Message</label>
+                <textarea class="w-100 h-25 border border-secondary" name="message" required="required"></textarea>
+              </li>
+            </ul>
+            <input class="text-white bg-info" type="submit">
+          </form>
+      
+    </section>
+  </div>
+
+<!--End of main-container/Start of footer-->
+  <footer class="text-seconday text-center text-white bg-secondary">
+    <div class="container">
+      <p class="mt-2"><small>Copyright &copy;</small></p>
+    </div>
+  </footer>
+<!--End of footer-->
+
+
+</body>
+</html>
